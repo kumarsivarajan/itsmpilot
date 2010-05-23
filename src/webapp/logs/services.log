@@ -1,0 +1,39 @@
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: YaafiComponentService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: SecurityService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: TemplateService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: RunDataService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: PullService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: IntakeService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: VelocityService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: EmailService
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: ScarabSecurity
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Added Mapping for Service: ScarabCache
+2007-02-09 20:32:06,890 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (early): YaafiComponentService
+2007-02-09 20:32:07,562 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (early): YaafiComponentService
+2007-02-09 20:32:07,562 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (early): PullService
+2007-02-09 20:32:07,578 [main] INFO  org.apache.fulcrum.TurbineServices - Pull Model tools will be refreshed on a per request basis.
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.tigris.scarab.tools.ScarabGlobalTool to add to the context as '$scarabG'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.tigris.scarab.tools.Format to add to the context as '$format'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.tigris.scarab.tools.SecurityAdminTool to add to the context as '$securityAdmin'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.tigris.scarab.util.ScarabLink to add to the context as '$link'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.apache.turbine.tool.TemplatePageAttributes to add to the context as '$page'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.apache.turbine.tool.ContentURI to add to the context as '$content'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.apache.turbine.tool.IntakeTool to add to the context as '$intake'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.tigris.scarab.tools.ScarabRequestTool to add to the context as '$scarabR'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.tigris.scarab.tools.ScarabLocalizationTool to add to the context as '$l10n'
+2007-02-09 20:32:07,593 [main] INFO  org.apache.fulcrum.TurbineServices - Setup tool class org.tigris.scarab.util.StaticLink to add to the context as '$staticLink'
+2007-02-09 20:32:07,859 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (late): ScarabSecurity
+2007-02-09 20:32:07,859 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (late): ScarabSecurity
+2007-02-09 20:32:08,125 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (early): PullService
+2007-02-09 20:32:08,125 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (early): VelocityService
+2007-02-09 20:32:08,828 [main] INFO  org.apache.fulcrum.TurbineServices - Added EventCartridge: org.tigris.scarab.util.ReferenceInsertionFilter : true
+2007-02-09 20:32:08,828 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (late): TemplateService
+2007-02-09 20:32:08,828 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (late): TemplateService
+2007-02-09 20:32:08,828 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (early): VelocityService
+2007-02-09 20:32:08,828 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (early): EmailService
+2007-02-09 20:32:08,953 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (early): EmailService
+2007-02-09 20:32:08,953 [main] INFO  org.apache.fulcrum.TurbineServices - Finished initializing all services!
+2007-02-09 20:32:09,015 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (late): RunDataService
+2007-02-09 20:32:09,015 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (late): RunDataService
+2007-02-09 20:32:09,312 [main] INFO  org.apache.fulcrum.TurbineServices - Start Initializing service (late): SecurityService
+2007-02-09 20:32:09,359 [main] INFO  org.apache.fulcrum.TurbineServices - Finish Initializing service (late): SecurityService

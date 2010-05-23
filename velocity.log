@@ -1,0 +1,664 @@
+2007-02-09 20:30:37,156 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2007-02-09 20:30:37,156 - ************************************************************** 
+2007-02-09 20:30:37,156 - Starting Jakarta Velocity v1.3.1
+2007-02-09 20:30:37,156 - RuntimeInstance initializing.
+2007-02-09 20:30:37,156 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2007-02-09 20:30:37,156 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2007-02-09 20:30:37,156 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2007-02-09 20:30:37,156 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2007-02-09 20:30:37,156 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2007-02-09 20:30:37,171 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2007-02-09 20:30:37,171 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,171 - ClasspathResourceLoader : initialization starting.
+2007-02-09 20:30:37,171 - ClasspathResourceLoader : initialization complete.
+2007-02-09 20:30:37,171 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2007-02-09 20:30:37,171 - Default ResourceManager initialization complete.
+2007-02-09 20:30:37,171 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2007-02-09 20:30:37,171 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2007-02-09 20:30:37,171 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2007-02-09 20:30:37,171 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2007-02-09 20:30:37,171 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2007-02-09 20:30:37,296 - Created: 20 parsers.
+2007-02-09 20:30:37,296 - Velocimacro : initialization starting.
+2007-02-09 20:30:37,296 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2007-02-09 20:30:37,312 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2007-02-09 20:30:37,312 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2007-02-09 20:30:37,312 - Velocimacro :  VM library template macro registration complete.
+2007-02-09 20:30:37,312 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2007-02-09 20:30:37,312 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2007-02-09 20:30:37,312 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2007-02-09 20:30:37,312 - Velocimacro : messages on  : VM system will output logging messages
+2007-02-09 20:30:37,312 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2007-02-09 20:30:37,312 - Velocimacro : initialization complete.
+2007-02-09 20:30:37,312 - Velocity successfully started.
+2007-02-09 20:30:37,515 - ResourceManager : found om/Control.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,593 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,656 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,671 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,734 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,781 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,781 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,796 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:37,937 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,015 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,015 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,031 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,062 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,093 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,109 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,109 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,156 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,187 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,218 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,218 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,343 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,375 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,375 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,375 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,421 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,453 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,453 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,453 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,484 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,515 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,515 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,531 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,562 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,687 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,703 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,703 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,734 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,765 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,781 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,781 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,812 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,828 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,843 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,843 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,875 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,906 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,921 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:38,921 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,046 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,062 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,078 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,078 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,109 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,125 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,140 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,140 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,187 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,218 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,218 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,218 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,265 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,296 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,296 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,312 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,421 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,453 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,453 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,453 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,500 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,515 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,531 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,531 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,562 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,593 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,593 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,609 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,640 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,656 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,671 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,750 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,781 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,812 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,812 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,812 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,859 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,890 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,906 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,906 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,937 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,968 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,984 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:39,984 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,015 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,125 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,140 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,140 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,171 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,218 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,234 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,234 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,265 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,296 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,296 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,296 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,328 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,359 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,375 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,375 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,406 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,515 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,531 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,531 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,562 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,593 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,593 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,593 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,625 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,640 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,656 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,687 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,718 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,718 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,750 - ResourceManager : found om/ExtensionManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,859 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,875 - ResourceManager : found om/ExtensionObject.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,875 - ResourceManager : found om/ExtensionPeer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,890 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,906 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,906 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,937 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,953 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,968 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:40,968 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,000 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,015 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,031 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,031 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,062 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,078 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,093 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,109 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,218 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,234 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,250 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,250 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,281 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,312 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,312 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,328 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,359 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,375 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,375 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,390 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,421 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,437 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,437 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,453 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,562 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,578 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,593 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,609 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,625 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,656 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,656 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,671 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,703 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,718 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,718 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,734 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,765 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,781 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,796 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,796 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,921 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,937 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,953 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,953 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:41,984 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,015 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,015 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,015 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,046 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,078 - ResourceManager : found om/Peer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,078 - ResourceManager : found om/MapBuilder.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,078 - ResourceManager : found om/BaseManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,078 - ResourceManager : found om/ExtensionManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,109 - ResourceManager : found om/ObjectWithManager.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,125 - ResourceManager : found om/ExtensionObject.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:30:42,125 - ResourceManager : found om/ExtensionPeer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,265 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2007-02-09 20:31:39,265 - ************************************************************** 
+2007-02-09 20:31:39,265 - Starting Jakarta Velocity v1.4
+2007-02-09 20:31:39,265 - RuntimeInstance initializing.
+2007-02-09 20:31:39,265 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2007-02-09 20:31:39,265 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2007-02-09 20:31:39,265 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2007-02-09 20:31:39,265 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2007-02-09 20:31:39,265 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2007-02-09 20:31:39,281 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2007-02-09 20:31:39,296 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,296 - ClasspathResourceLoader : initialization starting.
+2007-02-09 20:31:39,296 - ClasspathResourceLoader : initialization complete.
+2007-02-09 20:31:39,296 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2007-02-09 20:31:39,296 - Default ResourceManager initialization complete.
+2007-02-09 20:31:39,312 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2007-02-09 20:31:39,312 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2007-02-09 20:31:39,328 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2007-02-09 20:31:39,328 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2007-02-09 20:31:39,343 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2007-02-09 20:31:39,437 - Created: 20 parsers.
+2007-02-09 20:31:39,484 - Velocimacro : initialization starting.
+2007-02-09 20:31:39,484 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2007-02-09 20:31:39,484 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2007-02-09 20:31:39,484 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2007-02-09 20:31:39,484 - Velocimacro :  VM library template macro registration complete.
+2007-02-09 20:31:39,484 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2007-02-09 20:31:39,484 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2007-02-09 20:31:39,484 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2007-02-09 20:31:39,484 - Velocimacro : messages on  : VM system will output logging messages
+2007-02-09 20:31:39,484 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2007-02-09 20:31:39,484 - Velocimacro : initialization complete.
+2007-02-09 20:31:39,484 - Velocity successfully started.
+2007-02-09 20:31:39,828 - ResourceManager : found sql/base/Control.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,953 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,968 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,968 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,968 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,984 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,984 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,984 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:39,984 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,000 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,015 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,015 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,031 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,031 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,031 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,046 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,062 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,078 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,078 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,093 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,093 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,093 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,093 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,109 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,109 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,125 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,125 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,125 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,140 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,140 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,140 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,156 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,156 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,156 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,171 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,171 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,171 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,171 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,187 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,187 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,187 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,203 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,203 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,203 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,218 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,218 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,218 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,218 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,234 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,234 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,234 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,250 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,250 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,265 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,265 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,265 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,265 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,281 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,281 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,281 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,296 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,296 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,296 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,312 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,312 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,312 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,328 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,328 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,328 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,343 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,343 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,343 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,343 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,359 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,359 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,359 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,375 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,375 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,375 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,390 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,390 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,406 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,406 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,406 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,406 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,421 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,421 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,421 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,437 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,437 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,437 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,437 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,453 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,453 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,453 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,453 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,468 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,468 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,468 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,468 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,484 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,484 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,484 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,500 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,500 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,500 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,515 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,515 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,515 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,515 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,531 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,531 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,546 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,546 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,546 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,562 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,562 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,562 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,578 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,578 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,578 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,593 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,593 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,593 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,609 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,609 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,609 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,625 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,625 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,625 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,625 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,640 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,640 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,640 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,656 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,656 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,656 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,671 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,671 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,671 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,671 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,687 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,687 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,687 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,687 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,703 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,703 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,703 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,703 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,718 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,718 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,718 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,734 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,734 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,734 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,734 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,750 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,750 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,750 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,765 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,765 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,765 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,781 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,781 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,781 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,781 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,796 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,796 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,796 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,812 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,812 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,812 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,828 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,828 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,828 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,828 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,843 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,843 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,843 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,859 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,859 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,859 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,859 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,875 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,875 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,875 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,890 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,890 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,890 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,890 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,906 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,906 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,906 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,906 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,921 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,921 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,921 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,937 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,937 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,937 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,937 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,953 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,953 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,953 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,968 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,968 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,968 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,984 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,984 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,984 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:40,984 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,000 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,000 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,000 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,015 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,015 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,015 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,015 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,031 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,031 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,031 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,031 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,046 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,046 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,046 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,046 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,062 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,062 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,062 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,078 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,078 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,078 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,078 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,093 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,093 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,093 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,109 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,109 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,109 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,109 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,125 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,125 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,125 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,140 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,140 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,140 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,140 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,156 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,156 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,156 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,156 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,171 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,171 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,171 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,187 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,187 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,187 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,187 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,203 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,203 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,203 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,218 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,218 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,218 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,218 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,234 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,234 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,234 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,250 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,250 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,250 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,265 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,265 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,265 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,281 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,281 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,281 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,296 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,296 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,296 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,296 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,312 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,312 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,312 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,328 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,328 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,328 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,328 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,343 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,343 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,343 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,359 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,359 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,359 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,359 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,375 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,375 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,375 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,390 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,390 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,406 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,406 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,406 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,406 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,421 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,421 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,421 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,421 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,437 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,437 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,437 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,453 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,453 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,453 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,453 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,453 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,468 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,468 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,468 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,484 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,484 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,484 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,484 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,484 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,500 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,500 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,500 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,500 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,515 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,515 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,515 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,515 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,531 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,531 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,531 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,546 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,562 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,562 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,562 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,562 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,578 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,578 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,578 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,578 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,578 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,593 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,593 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,593 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,593 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,609 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,609 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,609 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,609 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,625 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,625 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,625 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,625 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,640 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,640 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,640 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,640 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,640 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,656 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,656 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,656 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,671 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,671 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,671 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,671 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,687 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,687 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,687 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,687 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,703 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,703 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,703 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,718 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,718 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,718 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,718 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,734 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,734 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,734 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,734 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,750 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,750 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,750 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,750 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,765 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,765 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,765 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,765 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,781 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,781 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,781 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,796 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,796 - ResourceManager : found sql/base/mysql/table.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,796 - ResourceManager : found sql/base/mysql/drop.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,796 - ResourceManager : found sql/base/mysql/columns.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,812 - ResourceManager : found sql/base/mysql/primarykey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,812 - ResourceManager : found sql/base/mysql/foreignkey.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,812 - ResourceManager : found sql/base/mysql/unique.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,828 - ResourceManager : found sql/base/mysql/index.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,828 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,828 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,828 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,843 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,843 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2007-02-09 20:31:41,843 - ResourceManager : found sql/base/mysql/tablefk.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
