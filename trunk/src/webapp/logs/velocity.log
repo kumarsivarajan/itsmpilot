@@ -1,0 +1,45 @@
+2007-02-09 20:32:08,562 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,562 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,562 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,562 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2007-02-09 20:32:08,562 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2007-02-09 20:32:08,562 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,609 [main] ERROR org.apache.velocity - VM #selectYear2: error : too few arguments to macro. Wanted 3 got 0
+2007-02-09 20:32:08,656 [main] ERROR org.apache.velocity - VM #queryAttributesSection: error : too few arguments to macro. Wanted 3 got 0
+2007-02-09 20:32:08,656 [main] ERROR org.apache.velocity - VM #attributeWidget: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,656 [main] ERROR org.apache.velocity - VM #attributeWidget: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,656 [main] ERROR org.apache.velocity - VM #attrValueCommonSelect: error : too few arguments to macro. Wanted 5 got 0
+2007-02-09 20:32:08,687 [main] ERROR org.apache.velocity - VM #paginateXModuleList: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,687 [main] ERROR org.apache.velocity - VM #rmitSort: error : too few arguments to macro. Wanted 3 got 0
+2007-02-09 20:32:08,687 [main] ERROR org.apache.velocity - VM #rmitSort: error : too few arguments to macro. Wanted 3 got 0
+2007-02-09 20:32:08,687 [main] ERROR org.apache.velocity - VM #paginateXModuleList: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,906 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,906 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,906 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,906 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2007-02-09 20:32:08,906 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2007-02-09 20:32:08,906 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2007-02-09 20:32:08,937 [main] ERROR org.apache.velocity - VM #selectYear2: error : too few arguments to macro. Wanted 3 got 0
+2007-02-09 20:32:09,562 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,562 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,578 [main] WARN  org.apache.velocity - org.apache.velocity.runtime.exception.ReferenceException: reference : template = email/ModifyIssue.vm [line 10,column 30] : $issue.DefaultTextAttributeValue.RModuleAttribute.DisplayValue is not a valid reference.
+2007-02-09 20:32:09,578 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2007-02-09 20:32:09,593 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]

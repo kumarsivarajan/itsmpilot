@@ -1,0 +1,67 @@
+2007-02-09 20:32:07,562 [main] INFO  org.tigris.scarab.xmlrpc.SimpleHandler - SimpleHandler: loading
+2007-02-09 20:32:09,000 [main] INFO  org.tigris.scarab - anonymous Login enabled.
+2007-02-09 20:32:10,687 [main] WARN  org.tigris.scarab - Error accessing dedupe sequence for issue type '{IssueType:
+IssueTypeId = 1
+Name = Defect
+Description = DefectDescription
+ParentId = 0
+Dedupe = true
+Deleted = false
+Locked = false
+Isdefault = true
+: name=Defect}'
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.RangeCheck(ArrayList.java:507)
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at org.tigris.scarab.om.IssueType.getDedupeSequence(IssueType.java:499)
+	at org.tigris.scarab.om.IssueType.getDedupeSequence(IssueType.java:478)
+	at org.tigris.scarab.om.AttributeGroup.delete(AttributeGroup.java:344)
+	at org.tigris.scarab.om.AttributeGroupTest.testDelete(AttributeGroupTest.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:325)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:536)
+2007-02-09 20:32:14,671 [main] WARN  org.tigris.scarab - Error accessing dedupe sequence for issue type '{IssueType:
+IssueTypeId = 10012
+Name = test issue type
+Description = null
+ParentId = 0
+Dedupe = true
+Deleted = false
+Locked = false
+Isdefault = false
+: name=test issue type}'
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.RangeCheck(ArrayList.java:507)
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at org.tigris.scarab.om.IssueType.getDedupeSequence(IssueType.java:499)
+	at org.tigris.scarab.om.IssueType.getDedupeSequence(IssueType.java:478)
+	at org.tigris.scarab.om.IssueTypeTest.testGetDedupeSequence(IssueTypeTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:325)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:536)
